@@ -50,7 +50,7 @@ class MenusServiceProvider extends ServiceProvider
      */
     private function registerHtmlPackage()
     {
-        $this->app->register('Collective\Html\HtmlServiceProvider');
+        $this->app->register('Spatie\Html\HtmlServiceProvider');
 
         $aliases = [
             'HTML' => 'Collective\Html\HtmlFacade',
