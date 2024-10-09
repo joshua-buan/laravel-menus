@@ -54,7 +54,6 @@ class MenusServiceProvider extends ServiceProvider
 
         $aliases = [
             'HTML' => 'Collective\Html\HtmlFacade',
-            'Form' => 'Collective\Html\FormFacade',
         ];
 
         AliasLoader::getInstance($aliases)->register();
